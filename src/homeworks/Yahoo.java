@@ -31,6 +31,7 @@ public class Yahoo {
 	public void afterTest() {
 		driver.close();
 	}
+	//sysout
 
 	@Test(priority = 0, testName = "Browser Pop Up")
 
@@ -151,6 +152,7 @@ public class Yahoo {
 						// Assert.assertTrue(driver.getCurrentUrl().contains(domain));
 						Thread.sleep(1000);
 						driver.close();
+						//yuyuyuyuyuyuyuyuyuyuyuyuyuyuyuyuy
 					}
 				}
 
